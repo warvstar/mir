@@ -24,7 +24,10 @@
 #include "time.h"
 
 #include "c2mir.h"
-
+#ifdef _WIN32
+#define __x86_64__ 1
+#define LDBL_DECIMAL_DIG DBL_DECIMAL_DIG
+#endif
 #ifdef __x86_64__
 #include "x86_64/cx86_64.h"
 #else
@@ -12070,8 +12073,14 @@ static void compile_finish (MIR_context_t ctx) {
   if (containing_anon_members != NULL) VARR_DESTROY (node_t, containing_anon_members);
   if (init_object_path != NULL) VARR_DESTROY (init_object_t, init_object_path);
 }
-
+#ifdef _WIN32
+typedef struct timeval {
+  long tv_sec;
+  long tv_usec;
+} timeval;
+#else
 #include <sys/time.h>
+#endif
 #if defined(__unix__) || defined(__APPLE__)
 #include <sys/stat.h>
 #endif

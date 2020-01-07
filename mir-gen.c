@@ -57,7 +57,9 @@
 #include <inttypes.h>
 
 #include <assert.h>
-
+#ifdef _WIN32
+#define __x86_64__ 1
+#endif
 #ifdef NDEBUG
 static inline int gen_assert (int cond) { return 0 && cond; }
 #else

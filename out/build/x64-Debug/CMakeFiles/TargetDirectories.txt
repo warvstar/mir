@@ -1,0 +1,10 @@
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/mir.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/mir_gen.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/l2m.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/llvm2mir.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/c2m.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/m2b.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/b2m.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/b2ctab.dir
+C:/Users/warvs/source/repos/mir/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
